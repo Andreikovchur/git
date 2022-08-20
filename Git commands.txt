@@ -1,0 +1,24 @@
+Git commands:
+
+Git clone - клонировать репозиторий
+Git init - инициализировать git в папке
+Git status - просмотреть статус файлов для добавления
+Git add * или . - добавить файлы в индекс
+Git commit -m "text" - добавить коммит с текстом
+Git log - просмотреть лог коммитов
+Git log -1 - просмотреть последний лог коммитов
+Git log -1 -p - просмотреть историю последнего коммита
+Git checkout --file - вернуть состояние файла
+Git diff --staged - посмотреть отличия, кот. будут записаны перед коммитом
+nano .gitignore - добавить файлы для игнорирования
+Git push origin - загрузить на git
+Git branch fix-error - создать ветку
+Git checkout fix_error - перейти на ветку
+Git branch - посмотреть ветки
+Git branch -d fix_error - удалить ветку
+Git checkout -b fix_error - создать и перейти на ветку
+Git merge fix-error - объединить ветку с главной
+Git checkout 'HASH' - перейти на коммит
+Git commit --amend - изменить сообщение коммита
+Git pull - скачать все из репозитория
+Git reset --hard HEAD~2 - вернуться на коммита назад+удалить
